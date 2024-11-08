@@ -11,16 +11,15 @@ align-items: center;
 gap: 20px;
 
 
+
 img{
     padding-right: 400px;
     padding-left: 10px;
 }  
 
 .headcontent{
-    pa
 }
     a{
-        color: white;
         text-decoration: none;
         padding: 10PX;
 
@@ -36,14 +35,12 @@ img{
         color: white;
         background-color: black;
     }
-
-
-
     
 }
 
 .body1{
-    background-image: url(./images/1621286.jpg); height: 700PX;
+
+    background-image:url(./images/1621286.jpg); height: 700PX;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +79,7 @@ h1{
 }
 
 .body3{
-    background-image: url(./images/wp3704688.jpg); 
+   background-image: url(./images/wp3704688.jpg);
     height: 400px;
     background-size: cover;
     color: white;
@@ -177,6 +174,119 @@ background-size: cover;
 }
 
 
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
 
 
+.aboutuscontent{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+
+p{
+    text-align: center;
+}
+h2{
+    color: black;
+}
+
+button{
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+color: white;
+background-color: black;
+}
+
+button:hover{
+    color: rgb(6, 6, 6);
+    background-color: white;
+    cursor: crosshair;
+}
+
+
+
+}
+
+
+
+.contactus{
+    background-color:  rgb(233, 202, 181);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+
+.contactustotal{
+    background-color: rgb(233, 202, 181);
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+
+h3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+}
+
+
+.contactussub{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    input,select{
+        width: 90%;
+        height: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+
+
+
+    textarea{
+        height: 40px;
+        width: 90%;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+   
+}
+
+
+.logospot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+}
 

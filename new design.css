@@ -9,8 +9,21 @@
     margin: 0;
 }
 
+
+.herocontent{
+/* background-color:rgba(55, 215, 114, 0.171); */
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+
+}
+
 .hero{
-    height: 450px; background-image: url("./images/pexels-photo-13290760.webp");
+    height: 450px; 
+    background-image: url("./images/pexels-photo-13290760.webp");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,6 +105,57 @@ button:hover {
 }
 
 
+.aboutsection22{
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.aboutsection2222{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
 
 
+.aboutcontent{
+background-color: royalblue;
+width: 800px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 30px;
+color: black;
+input,select{
+    width: 80%;
+    border-radius: 20px;
+    height: 30px;
+    outline: none;
+    padding-left: 20px;
+    border: 2px solid white;
+}
+}
 
+
+.textbox{
+    width: 80%;
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+    border: 2px solid white;
+    
+}
+
+.fet{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
